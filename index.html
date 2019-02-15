@@ -1,3 +1,3 @@
 <script>
-"use strict";for(var locale,locales=["en","ru"],languages=navigator.languages||[navigator.language||navigator.userLanguage]||[],index=0;index<languages.length;index+1)for(var lang=(languages[index]||"").split("-")[0],pos=0;pos<locales.length&&(locales[pos]===lang.toLowerCase()&&(locale=locales[pos]),!locale);pos+1);window.location.href="".concat(locale||"en","/index.html");
+for(var locale,locales=["en","ru"],languages=navigator.languages||[navigator.language||navigator.userLanguage]||[],index=0;index<languages.length;index++)for(var lang=(languages[index]||"").split("-")[0],pos=0;pos<locales.length&&(locales[pos]===lang.toLowerCase()&&(locale=locales[pos]),!locale);pos++);window.location.href="".concat(locale||"en","/index.html");
 </script>
